@@ -35,5 +35,6 @@
 3. Reinforcement learning
    1. Environment
    2. Agent
-   3. Q-learning
-   4. Upper-confidence bound
+   3. Thompson Sampling
+   4. Q-learning
+   5. Upper-confidence bound
