@@ -38,3 +38,5 @@
    3. Thompson Sampling
    4. Q-learning
    5. Upper-confidence bound
+
+## Könyvtár https://drive.google.com/drive/folders/1ytRXtrDS-MEZftdREUtccjOsE0ZPfxQv?usp=sharing
