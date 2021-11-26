@@ -48,7 +48,7 @@ namespace Objektum_orientalt_programozas.Bevezetes
             float yComponent = (a.y - b.y)*(a.y - b.y);
             float zComponent = (a.z - b.z)*(a.z - b.z);
             double sum = (double)(xComponent + yComponent +zComponent);
-            return (float)Math.Sqrt(sum);
+            return (float)Math.Sqrt(sum); //A Math osztály függvényei is mind static függvények, a Math osztály pedig egy static osztály
         }
     }
 }
