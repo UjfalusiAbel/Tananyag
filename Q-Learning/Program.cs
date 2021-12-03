@@ -13,12 +13,12 @@ namespace Q_Learning
 
             agent.SetRandomStartPosition();
             agent.discountFactor = 0.9f;
-            agent.epsilon = 0.02f;
+            agent.epsilon = 0.01f;
             agent.learningRate = 0.9f;
-            agent.trainingEpisodes = 5000;
+            agent.trainingEpisodes = 1000;
             agent.Train();
             Console.WriteLine("A cél a 0 5 pozíció");
-            List<Pair> path = agent.GetShortestPath(9,0);
+            List<Pair> path = agent.GetShortestPath(7,8);
             foreach(var x in path)
             {
                 Console.WriteLine(x.rowIndex + " " + x.columnIndex);

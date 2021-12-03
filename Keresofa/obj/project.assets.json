@@ -1,0 +1,65 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "net5.0": []
+  },
+  "packageFolders": {
+    "/home/ujfalusiabel/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/ujfalusiabel/Dokumentumok/Munka/Tananyag/Keresofa/Keresofa.csproj",
+      "projectName": "Keresofa",
+      "projectPath": "/home/ujfalusiabel/Dokumentumok/Munka/Tananyag/Keresofa/Keresofa.csproj",
+      "packagesPath": "/home/ujfalusiabel/.nuget/packages/",
+      "outputPath": "/home/ujfalusiabel/Dokumentumok/Munka/Tananyag/Keresofa/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/ujfalusiabel/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/5.0.206/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

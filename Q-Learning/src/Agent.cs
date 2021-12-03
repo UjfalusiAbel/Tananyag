@@ -33,7 +33,7 @@ namespace Q_Learning.src
         {
             if(randomGenerator.NextDouble()>epsilon)
             {
-                return (Action)GetMaxValueIndex(currentRowIndex, currentColumnIndex) ;
+                return (Action)GetMaxValueIndex(currentRowIndex, currentColumnIndex);
             }
             else
             {
